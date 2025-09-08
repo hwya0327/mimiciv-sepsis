@@ -73,7 +73,7 @@ The [preamble](https://github.com/microsoft/mimic_sepsis/blob/main/preprocess.py
 
 Depending on the I/O readout speed and network connectivity (assuming that the MIMIC database is saved on a server) this script can take several hours to run completely.
 
-#### 3) Run `sepsis_cohort.py`
+#### 3) Run `cohort.py`
 
 Using the sepsis3 criteria, this script uses the preprocessed intermediate tables produced in the prior step to define a cohort of septic patients. This cohort definition was spefically designed for use in sequential decision making purposes, yet this cohort definition code does not partition temporally spaced observations as individual data points. This script instead populates a table of patients who develop sepsis at some point during their treatment in the ICU and includes all observations 24 hours before until 48 hours after presumed onset of sepsis. Further preprocessing is required to represent this data in MDP format, an example where this is done can be found at: https://github.com/MLforHealth/rl_representations/.
 

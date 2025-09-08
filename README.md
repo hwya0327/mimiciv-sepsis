@@ -48,8 +48,6 @@ After downloading and setting up the SQL files and performing all the steps from
 
 This script accesses the MIMIC database and extracts sub-tables for use in defining the final septic patient cohort in the next step.
 
-There are 45 tables in the MIMIC-IV database, 26 are unique, and the other 19 are partitions of chartevents that are not to be queried directly (see: [https://mit-lcp.github.io/mimic-schema-spy/](https://mit-lcp.github.io/mimic-schema-spy/) for further guidance).
-
 The [preamble](https://github.com/microsoft/mimic_sepsis/blob/main/preprocess.py#L17-L26) of this file will likely be the only editing needed to direct toward where a user's access to the MIMIC database is defined, as well as where they choose to save off the intermediate files.
 
 #### 3) Run `cohort.py`

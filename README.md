@@ -25,7 +25,6 @@ https://github.com/matthieukomorowski/AI_Clinician
 
 ---
 
-
 ## Requirements
 
 We recommend using the [Anaconda](https://docs.anaconda.com/anaconda/install/) distribution for Python dependencies. From this standard distribution, we use both the `os` and `argparse` libraries. All other needed libraries used in this code can be found in `requirements.txt`.

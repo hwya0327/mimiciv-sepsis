@@ -1,6 +1,6 @@
-# mimiciv-sepsis: Sepsis Cohort from MIMIC IV
+# mimiciv-sepsis: Sepsis Cohort from MIMIC-IV
 
-This repo provides code for generating the sepsis cohort from MIMIC III dataset. Our main goal is to facilitate reproducibility of results in the literature. 
+This repo provides code for generating the sepsis cohort from MIMIC-IV dataset. Our main goal is to facilitate reproducibility of results in the literature. 
 
 This is a pure-python implementation based on a corrected version (by the first contributor below) of the original Matlab repo accompanying "The AI Clinician" paper ([Komorowski, et al](https://www.nature.com/articles/s41591-018-0213-5?sf200531662=1)):
 
@@ -53,8 +53,8 @@ We recommend using the [Anaconda](https://docs.anaconda.com/anaconda/install/) d
 
 ## How to use
 
-#### 1) MIMIC-III Database
-You need to first set up and configure MIMIC III database. The details are provided here:
+#### 1) MIMIC-IV Database
+You need to first set up and configure MIMIC-IV database. The details are provided here:
 
 https://mimic.physionet.org/
 
@@ -68,7 +68,7 @@ After downloading and setting up the SQL files and performing all the steps from
 
 This script accesses the MIMIC database and extracts sub-tables for use in defining the final septic patient cohort in the next step.
 
-There are 43 tables in the Mimic III database, 26 are unique and the other 17 are partitions of chartevents that are not to be queried directly (see: [https://mit-lcp.github.io/mimic-schema-spy/](https://mit-lcp.github.io/mimic-schema-spy/) for further guidance).
+There are 43 tables in the MIMIC-IV database, 26 are unique and the other 17 are partitions of chartevents that are not to be queried directly (see: [https://mit-lcp.github.io/mimic-schema-spy/](https://mit-lcp.github.io/mimic-schema-spy/) for further guidance).
 
 Ulitmately, we create 15 sub-tables when extracting from the database. These subtables are stored in a subfolder `processed_files/` that can be created manually. This script will create the subfolder if it doesn't already exist.
 
@@ -84,6 +84,6 @@ External files required: `Reflabs.tsv`, `Refvitals.tsv`, `sample_and_hold.csv` (
 
 The final cohort table is saved in a user specified location in `.csv` format where the columns are z-normalized. The user can specify to also save off an unormalized copy of the same table.
 
-Note: The size of the cohort will depend on which version of MIMIC-III is used. The original cohort from the 2018 Nature Medicine publication was built using MIMIC-III v1.3.
+Note: The size of the cohort will depend on which version of MIMIC-IV is used. The original cohort from the 2018 Nature Medicine publication was built using MIMIC-IV v1.3.
 
 Again, depending on system characteristics, this script may take 2-3 hours to run to completion.

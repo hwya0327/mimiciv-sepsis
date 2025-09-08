@@ -2,7 +2,9 @@
 
 This repo provides updated code for generating the sepsis cohort from the MIMIC-IV dataset based on the conduct of Microsoft: https://github.com/microsoft/mimic_sepsis
 
-This is a pure Python implementation based on a corrected version (by the first contributor below) of the original MATLAB repo accompanying the AI Clinician paper ([Komorowski, et al](https://www.nature.com/articles/s41591-018-0213-5?sf200531662=1)): https://github.com/matthieukomorowski/AI_Clinician
+This is a pure Python implementation based on a corrected version (by the first contributor below) of the original MATLAB repo accompanying the AI Clinician paper ([Komorowski, et al](https://www.nature.com/articles/s41591-018-0213-5?sf200531662=1)): 
+
+https://github.com/matthieukomorowski/AI_Clinician
 
 ### Core updates and modifications to the above repo include:
 

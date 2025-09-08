@@ -20,8 +20,6 @@ https://github.com/matthieukomorowski/AI_Clinician
 
 [LICENSE](https://github.com/microsoft/mimic_sepsis/blob/master/LICENSE)
 
-
-
 [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct)
 
 ---

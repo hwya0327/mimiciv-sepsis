@@ -56,7 +56,7 @@ The [preamble](https://github.com/microsoft/mimic_sepsis/blob/main/preprocess.py
 
 Using the sepsis-3 criteria, this script uses the preprocessed intermediate tables produced in the prior step to define a cohort of septic patients. This cohort definition was specifically designed for use in sequential decision-making purposes, yet this cohort definition code does not partition temporally spaced observations as individual data points. This script instead populates a table of patients who develop sepsis at some point during their treatment in the ICU and includes all observations 24 hours before until 48 hours after presumed onset of sepsis. Further preprocessing is required to represent this data in MDP format; an example where this is done can be found at: https://github.com/MLforHealth/rl_representations/.
 
-The final cohort table is saved in a user-specified location in `.csv` format, where the columns are z-normalized. The user can specify to also save off an unnormalized copy of the same table.
+The final cohort table is saved in a user-specified location in `_Z.csv` format, where the columns are z-normalized. The user can specify to also save off an unnormalized copy of the same table "_RAW.csv.
 
 Note: The size of the cohort will depend on which version of MIMIC-IV is used. The original cohort from the 2018 Nature Medicine publication was built using MIMIC-III v1.3.
 

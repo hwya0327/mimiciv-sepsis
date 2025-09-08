@@ -13,11 +13,6 @@ https://github.com/matthieukomorowski/AI_Clinician
 - Clearly prevent data leakage
 - Inherit the core of the previous implementation
 
----
-
-[LICENSE](https://github.com/microsoft/mimic_sepsis/blob/master/LICENSE)
-
----
 
 ## Contributing
 

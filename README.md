@@ -8,12 +8,10 @@ https://github.com/matthieukomorowski/AI_Clinician
 
 ### Core updates and modifications to the above repo include:
 
-- Pure python re-implementation;
-- Numerous bug fixes;
-- Add description to the item IDs (essential to clarify what is what);
-- A point-by-point check with the original code to assure same data generation before imputation; 
-- Deprecate original imputation, which are not reproducible;
-- Add KNN imputation to produce higher quality data.
+- Novel Python re-implementation;
+- Precise and expanded preprocess
+- Clearly prevent data leakage
+- Inherit the core of the previous implementation
 
 ---
 

@@ -8,7 +8,7 @@ https://github.com/matthieukomorowski/AI_Clinician
 
 ### Core updates and modifications to the above repo include:
 
-- Novel Python re-implementation;
+- Novel Python re-implementation
 - Precise and expanded preprocess
 - Clearly prevent data leakage
 - Inherit the core of the previous implementation

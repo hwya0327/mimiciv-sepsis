@@ -17,16 +17,11 @@ https://github.com/matthieukomorowski/AI_Clinician
 
 [LICENSE](https://github.com/microsoft/mimic_sepsis/blob/master/LICENSE)
 
-[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct)
-
 ---
 
 ## Contributing
 
-This code has been developed as part of the RL4H initiative at MSR Montreal. Most of the core work has been done by
-
-- Jayakumar Subramanian (jayakumar.subramanian@gmail.com), Research Intern, MSR Montreal
-- Taylor Killian (twkillian@cs.toronto.edu), Ph.D. Student, University of Toronto
+- Hyunwoo Kim (hwya0327@korea.ac.kr), Integrated Ph.D. Student, University of Korea
 
 ---
 
